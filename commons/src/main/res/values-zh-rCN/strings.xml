@@ -392,6 +392,7 @@
     <string name="enable_pull_to_refresh">启用顶部上拉刷新</string>
     <string name="use_24_hour_time_format">使用 24 小时制</string>
     <string name="sunday_first">每周以周日开头</string>
+	<string name="show_date_in_widget">Show date in widget</string>
     <string name="widgets">小部件</string>
     <string name="use_same_snooze">始终使用相同的贪睡时间</string>
     <string name="snooze_time">贪睡时间</string>

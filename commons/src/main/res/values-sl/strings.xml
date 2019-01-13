@@ -433,6 +433,7 @@
     <string name="enable_pull_to_refresh">Omogočite poteg z vrha za ponovno nalaganje</string>
     <string name="use_24_hour_time_format">Uporabljaj 24-urni format</string>
     <string name="sunday_first">Začni teden v nedeljo</string>
+	<string name="show_date_in_widget">Show date in widget</string>
     <string name="widgets">Pripomočki</string>
     <string name="use_same_snooze">Vedno uporabi enak čas dremeža</string>
     <string name="snooze_time">Čas dremeža</string>

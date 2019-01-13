@@ -392,6 +392,7 @@
     <string name="enable_pull_to_refresh">Habilitar puxar do topo da tela para atualizar o conteúdo</string>
     <string name="use_24_hour_time_format">Usar formato de tempo 24-horas</string>
     <string name="sunday_first">Iniciar a semana no Domingo</string>
+	<string name="show_date_in_widget">Show date in widget</string>
     <string name="widgets">Widgets</string>
     <string name="use_same_snooze">Sempre usar o mesmo tempo de soneca</string>
     <string name="snooze_time">Tempo de soneca</string>

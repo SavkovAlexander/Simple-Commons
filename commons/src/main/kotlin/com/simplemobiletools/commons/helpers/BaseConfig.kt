@@ -215,6 +215,10 @@ open class BaseConfig(val context: Context) {
         }
         set(sundayFirst) = prefs.edit().putBoolean(SUNDAY_FIRST, sundayFirst).apply()
 
+    var showDateInWidget: Boolean
+        get() = prefs.getBoolean(SHOW_DATE_IN_WIDGET, true)
+        set(showDateInWidget) = prefs.edit().putBoolean(SHOW_DATE_IN_WIDGET, showDateInWidget).apply()
+
     var wasAlarmWarningShown: Boolean
         get() = prefs.getBoolean(WAS_ALARM_WARNING_SHOWN, false)
         set(wasAlarmWarningShown) = prefs.edit().putBoolean(WAS_ALARM_WARNING_SHOWN, wasAlarmWarningShown).apply()
