@@ -379,6 +379,7 @@
     <string name="enable_pull_to_refresh">Ermögliche \"Auffrischen\" durch Ziehen von der oberen Kante</string>
     <string name="use_24_hour_time_format">Benutze 24-Std.-Zeitformat</string>
     <string name="sunday_first">Beginne die Woche am Sonntag</string>
+    <string name="show_date_in_widget">Show date in widget</string>
     <string name="widgets">Widgets</string>
     <string name="use_same_snooze">Immer dasselbe Snooze-Intervall nutzen</string>
     <string name="snooze_time">Schlummern-Intervall</string>

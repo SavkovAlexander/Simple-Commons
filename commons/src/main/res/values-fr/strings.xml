@@ -379,6 +379,7 @@
     <string name="enable_pull_to_refresh">Activer le rafraîchissement en glissant à partir du haut</string>
     <string name="use_24_hour_time_format">Utiliser le format horaire 24 heures.</string>
     <string name="sunday_first">Démarrer la semaine le dimanche</string>
+    <string name="show_date_in_widget">Show date in widget</string>
     <string name="widgets">Widgets</string>
     <string name="use_same_snooze">Toujours utiliser le même intervalle de répétition</string>
     <string name="snooze_time">Temps de répétition</string>

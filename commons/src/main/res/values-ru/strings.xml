@@ -409,6 +409,7 @@
     <string name="enable_pull_to_refresh">Использовать \"потянуть-для-обновления\" в верхней части экрана</string>
     <string name="use_24_hour_time_format">Использовать 24-часовой формат времени</string>
     <string name="sunday_first">Воскресенье — начало недели</string>
+    <string name="show_date_in_widget">Показывать дату в виджете</string>
     <string name="widgets">Виджеты</string>
     <string name="use_same_snooze">Всегда использовать один и тот же интервал повтора</string>
     <string name="snooze_time">Интервал повтора</string>

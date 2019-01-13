@@ -379,6 +379,7 @@
     <string name="enable_pull_to_refresh">Enable pull-to-refresh from the top</string>
     <string name="use_24_hour_time_format">24時間表示を使用</string>
     <string name="sunday_first">Start week on Sunday</string>
+    <string name="show_date_in_widget">Show date in widget</string>
     <string name="widgets">ウィジェット</string>
     <string name="use_same_snooze">Always use same snooze time</string>
     <string name="snooze_time">Snooze time</string>
