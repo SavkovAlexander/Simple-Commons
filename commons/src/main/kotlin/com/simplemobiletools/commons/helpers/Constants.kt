@@ -98,6 +98,7 @@ const val WAS_APP_ON_SD_SHOWN = "was_app_on_sd_shown"
 const val WAS_BEFORE_ASKING_SHOWN = "was_before_asking_shown"
 const val WAS_INITIAL_UPGRADE_TO_PRO_SHOWN = "was_initial_upgrade_to_pro_shown"
 const val WAS_APP_ICON_CUSTOMIZATION_WARNING_SHOWN = "was_app_icon_customization_warning_shown"
+const val APP_SIDELOADING_STATUS = "app_sideloading_status"
 
 // licenses
 internal const val LICENSE_KOTLIN = 1
@@ -123,6 +124,7 @@ const val LICENSE_NUMBER_PICKER = 524288
 const val LICENSE_EXOPLAYER = 1048576
 const val LICENSE_PANORAMA_VIEW = 2097152
 const val LICENSE_SANSELAN = 4194304
+const val LICENSE_GESTURE_VIEWS = 8388608
 
 // global intents
 const val OPEN_DOCUMENT_TREE = 1000
@@ -189,6 +191,10 @@ const val SUNDAY_BIT = 64
 const val EVERY_DAY_BIT = MONDAY_BIT or TUESDAY_BIT or WEDNESDAY_BIT or THURSDAY_BIT or FRIDAY_BIT or SATURDAY_BIT or SUNDAY_BIT
 const val WEEK_DAYS_BIT = MONDAY_BIT or TUESDAY_BIT or WEDNESDAY_BIT or THURSDAY_BIT or FRIDAY_BIT
 const val WEEKENDS_BIT = SATURDAY_BIT or SUNDAY_BIT
+
+const val SIDELOADING_UNCHECKED = 0
+const val SIDELOADING_TRUE = 1
+const val SIDELOADING_FALSE = 2
 
 val photoExtensions: Array<String> get() = arrayOf(".jpg", ".png", ".jpeg", ".bmp", ".webp")
 val videoExtensions: Array<String> get() = arrayOf(".mp4", ".mkv", ".webm", ".avi", ".3gp", ".mov", ".m4v", ".3gpp")

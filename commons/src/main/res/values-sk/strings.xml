@@ -22,6 +22,7 @@
     <string name="transparent">Priesvitná</string>
     <string name="transparent_color">Priesvitná farba</string>
     <string name="select_a_different_color">Zvoliť inú farbu</string>
+    <string name="download">Stiahnuť</string>
 
     <!-- Favorites -->
     <string name="favorites">Obľúbené</string>
@@ -220,6 +221,7 @@
     <string name="empty_and_disable_recycle_bin">Vysypať a deaktivovať odpadkový kôš</string>
     <string name="undo">Späť</string>
     <string name="redo">Obnoviť</string>
+    <string name="print">Tlačiť</string>
 
     <!-- Sorting -->
     <string name="sort_by">Na zoradenie použiť</string>
@@ -406,7 +408,7 @@
     <string name="password_protect_hidden_items">Uzamknúť viditeľnosť skrytých položiek heslom</string>
     <string name="password_protect_whole_app">Uzamknúť heslom celú aplikáciu</string>
     <string name="password_protect_file_deletion">Uzamknúť heslom mazanie a presúvanie súborov</string>
-    <string name="keep_last_modified">Ponechať starú hodnotu naposledy-upravené pri kopírovaní/presúvaní/premenúvaní súborov</string>
+    <string name="keep_last_modified">Ponechať starú hodnotu naposledy-upravené pri súborových operáciách</string>
     <string name="show_info_bubble">Zobraziť informačnú bublinu pri prehliadaní položiek ťahaním posuvníka</string>
     <string name="prevent_phone_from_sleeping">Zabrániť uspaniu zariadenia kým je apka v popredí</string>
     <string name="skip_delete_confirmation">Stále preskočiť potvrdenie vymazania súborov</string>
@@ -422,6 +424,10 @@
     <string name="recycle_bin_cleaning_interval">Interval vysypávania koša</string>
     <string name="empty_recycle_bin">Vysypať odpadkový kôš</string>
     <string name="force_portrait_mode">Stále použiť režim na výšku</string>
+    <string name="export_settings">Exportovať nastavenia</string>
+    <string name="import_settings">Importovať nastavenia</string>
+    <string name="settings_exported_successfully">Nastavenia boli úspešne exportované</string>
+    <string name="settings_imported_successfully">Nastavenia boli úspešne importované</string>
 
     <!-- Setting sections -->
     <string name="visibility">Viditeľnosť</string>
@@ -432,6 +438,7 @@
     <string name="saving_label">Ukladanie</string>
     <string name="startup">Po spustení</string>
     <string name="text">Text</string>
+    <string name="migrating">Migrovanie</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Obnoviť tento súbor</string>
@@ -458,6 +465,7 @@
     <string name="exporting_failed">Exportovanie zlyhalo</string>
     <string name="importing_some_entries_failed">Importovanie niektorých položiek zlyhalo</string>
     <string name="exporting_some_entries_failed">Exportovanie niektorých položiek zlyhalo</string>
+    <string name="no_entries_for_importing">Nenašli sa žiadne položky pre import</string>
     <string name="no_entries_for_exporting">Nenašli sa žiadne položky pre export</string>
 
     <!-- OTG devices -->
@@ -552,7 +560,7 @@
     </string>
     <string name="purchase">Zakúpiť</string>
     <string name="update_thank_you">Prosím aktualizujte Jednoduché Ďakujem na najnovšiu verziu</string>
-    <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prečítajte Často Kladené Otázky, možno v nich nájdete svoju odpoveď.</string>
+    <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prejdite nastavenia aplikácie a prečítajte Často Kladené Otázky. Možno v nich nájdete svoju odpoveď.</string>
     <string name="read_it">Prečítať</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
@@ -563,6 +571,12 @@
             <a href="%1$s">%2$s</a><br><br>
             Viete ju stiahnuť kliknutím na názov.<br><br>
             Vďaka
+        ]]>
+    </string>
+
+    <string name="sideloaded_app">
+        <![CDATA[
+            Zdá sa, že vaša verzia apky je poškodená. Prosím stiahnite originálnu verziu <a href="%s">odtiaľ</a>.
         ]]>
     </string>
 
@@ -611,4 +625,5 @@
     <string name="panorama_view_title">VR Panorama View (zobrazovanie panorám)</string>
     <string name="sanselan_title">Apache Sanselan (čítanie metadát obrázkov)</string>
     <string name="filters_title">Android Photo Filters (filtre obrázkov)</string>
+    <string name="gesture_views_title">Gesture Views (priblížiteľné obrázky)</string>
 </resources>

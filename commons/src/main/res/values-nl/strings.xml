@@ -22,6 +22,7 @@
     <string name="transparent">Transparant</string>
     <string name="transparent_color">Transparante kleur</string>
     <string name="select_a_different_color">Kies een andere kleur</string>
+    <string name="download">Downloaden</string>
 
     <!-- Favorites -->
     <string name="favorites">Favorieten</string>
@@ -217,6 +218,7 @@
     <string name="empty_and_disable_recycle_bin">Prullenbak leegmaken en uitschakelen</string>
     <string name="undo">Ongedaan maken</string>
     <string name="redo">Opnieuw</string>
+    <string name="print">Printen</string>
 
     <!-- Sorting -->
     <string name="sort_by">Sorteren op</string>
@@ -385,7 +387,7 @@
     <string name="password_protect_hidden_items">Verborgen items met wachtwoord beveiligen</string>
     <string name="password_protect_whole_app">Hele app met wachtwoord beveiligen</string>
     <string name="password_protect_file_deletion">Bestandsoperaties Verwijderen en Verplaatsen met wachtwoord beveiligen</string>
-    <string name="keep_last_modified">Datum laatst gewijzigd behouden bij bestandsoperaties</string>
+    <string name="keep_last_modified">Datum laatst gewijzigd na bestandsoperatie niet bijwerken</string>
     <string name="show_info_bubble">Bij slepen van schuifbalk extra informatie tonen</string>
     <string name="prevent_phone_from_sleeping">Slaapstand voorkomen wanneer de app actief is</string>
     <string name="skip_delete_confirmation">Niet om bevestiging vragen bij verwijderen</string>
@@ -401,6 +403,10 @@
     <string name="recycle_bin_cleaning_interval">Interval prullenbak leegmaken</string>
     <string name="empty_recycle_bin">Prullenbak leegmaken</string>
     <string name="force_portrait_mode">Portretmodus forceren</string>
+    <string name="export_settings">Instellingen exporteren</string>
+    <string name="import_settings">Instellingen importeren</string>
+    <string name="settings_exported_successfully">Instellingen geëxporteerd</string>
+    <string name="settings_imported_successfully">Instellingen geïmporteerd</string>
 
     <!-- Setting sections -->
     <string name="visibility">Opmaak</string>
@@ -411,6 +417,7 @@
     <string name="saving_label">Opslaan</string>
     <string name="startup">Opstarten</string>
     <string name="text">Tekst</string>
+    <string name="migrating">Migreren</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Bestand herstellen</string>
@@ -436,7 +443,8 @@
     <string name="exporting_failed">Exporteren mislukt</string>
     <string name="importing_some_entries_failed">Sommige items konden niet worden geïmporteerd</string>
     <string name="exporting_some_entries_failed">Sommige items konden niet worden geëxporteerd</string>
-    <string name="no_entries_for_exporting">Er zijn geen items gevonden om te exporteren</string>
+    <string name="no_entries_for_importing">Er zijn geen te importeren items gevonden</string>
+    <string name="no_entries_for_exporting">Er zijn geen te exporteren items gevonden</string>
 
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -530,7 +538,7 @@
     </string>
     <string name="purchase">Kopen</string>
     <string name="update_thank_you">Er is een nieuwe versie van Simple Thank You</string>
-    <string name="before_asking_question_read_faq">Kijk bij problemen eerst naar de Veelgestelde vragen. Wellicht staat de oplossing daar beschreven.</string>
+    <string name="before_asking_question_read_faq">Controleer bij problemen eerst de instellingen van de app en neem de Veelgestelde vragen door. Wellicht is de oplossing daar reeds te vinden.</string>
     <string name="read_it">Nu lezen</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
@@ -541,6 +549,12 @@
             <a href="%1$s">%2$s</a><br><br>
             Downloaden kan door een druk op de naam hierboven.<br><br>
             Dank u wel!
+        ]]>
+    </string>
+
+    <string name="sideloaded_app">
+        <![CDATA[
+            Het lijkt erop dat deze versie van de app corrupt is. Download de originele versie <a href="%s">hier</a>.
         ]]>
     </string>
 
@@ -588,4 +602,5 @@
     <string name="panorama_view_title">VR Panorama View (displaying panoramas)</string>
     <string name="sanselan_title">Apache Sanselan (reading image metadata)</string>
     <string name="filters_title">Android Photo Filters (image filters)</string>
+    <string name="gesture_views_title">Gesture Views (zoomable images)</string>
 </resources>

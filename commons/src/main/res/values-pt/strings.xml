@@ -22,6 +22,7 @@
     <string name="transparent">Transparente</string>
     <string name="transparent_color">Cor transparente</string>
     <string name="select_a_different_color">Selecione uma cor diferente</string>
+    <string name="download">Descarregar</string>
 
     <!-- Favorites -->
     <string name="favorites">Favoritos</string>
@@ -178,8 +179,8 @@
     <string name="undo_changes_confirmation">Tem a certeza de que deseja desfazer as alterações?</string>
     <string name="save_before_closing">Existem alterações não guardadas. Deseja guardar antes de sair?</string>
     <string name="apply_to_all_apps">Aplicar cores a todas as aplicações Simple</string>
-    <string name="app_icon_color_warning">WARNING: Some launchers do not handle app icon customization properly. In case the icon will disappear, try launching the app via Google Play or some widget, if available.
-        Once launched, just set back the default orange icon #F57C00. You might have to reinstall the app in the worst case.</string>
+    <string name="app_icon_color_warning">AVISO: alguns launchers não gerem bem a personalização dos ícones. Se o ícone desaparecer, tente iniciar a aplicação através da Google Play ou do widget.
+        Depois de iniciar a aplicação, reverta para a cor original (#F57C00). No pior cenário, poderá ser necessário reinstalar a aplicação.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
     <string name="purchase_thank_you">
         <![CDATA[
@@ -217,6 +218,7 @@
     <string name="empty_and_disable_recycle_bin">Esvaziar e desativar a reciclagem</string>
     <string name="undo">Desfazer</string>
     <string name="redo">Refazer</string>
+    <string name="print">Print</string>
 
     <!-- Sorting -->
     <string name="sort_by">Ordenar por</string>
@@ -385,7 +387,7 @@
     <string name="password_protect_hidden_items">Proteger itens ocultos com palavra-passe</string>
     <string name="password_protect_whole_app">Proteger aplicação com palavra-passe</string>
     <string name="password_protect_file_deletion">Impedir eliminação e movimentação de ficheiros com palavra-passe</string>
-    <string name="keep_last_modified">Manter dados da última modificação ao copiar/mover/renomear</string>
+    <string name="keep_last_modified">Manter data/hora da última modificação nas operações de ficheiros</string>
     <string name="show_info_bubble">Mostrar informação ao arrastar a barra de deslocamento</string>
     <string name="prevent_phone_from_sleeping">Impedir adormecimento do dispositivo se a aplicação estiver em segundo plano</string>
     <string name="skip_delete_confirmation">Ignorar sempre a confirmação para eliminação de ficheiros</string>
@@ -401,9 +403,13 @@
     <string name="recycle_bin_cleaning_interval">Intervalo de tempo para limpar a reciclagem</string>
     <string name="empty_recycle_bin">Limpar reciclagem</string>
     <string name="force_portrait_mode">Impor modo vertical</string>
+    <string name="export_settings">Exportar definições</string>
+    <string name="import_settings">Importar definições</string>
+    <string name="settings_exported_successfully">Definições exportadas com sucesso</string>
+    <string name="settings_imported_successfully">Definições importadas com sucesso</string>
 
     <!-- Setting sections -->
-    <string name="visibility">Visibilidade</string>
+    <string name="visibility">Exibição</string>
     <string name="security">Segurança</string>
     <string name="scrolling">Deslocação</string>
     <string name="file_operations">Operações de ficheiros</string>
@@ -411,6 +417,7 @@
     <string name="saving_label">Guardar</string>
     <string name="startup">Arranque</string>
     <string name="text">Texto</string>
+    <string name="migrating">Migração</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Restaurar este ficheiro</string>
@@ -436,6 +443,7 @@
     <string name="exporting_failed">Falha ao exportar</string>
     <string name="importing_some_entries_failed">Falha ao importar alguns itens</string>
     <string name="exporting_some_entries_failed">Falha ao exportar alguns itens</string>
+    <string name="no_entries_for_importing">Não existem itens para importação</string>
     <string name="no_entries_for_exporting">Não existem itens para exportação</string>
 
     <!-- OTG devices -->
@@ -530,7 +538,7 @@
     </string>
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Por favor atualize a aplicação Simple Thank You para a versão mais recente</string>
-    <string name="before_asking_question_read_faq">Antes de colocar uma questão, leia as FAQ pois pode já existir uma solução para o seu problema.</string>
+    <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
     <string name="read_it">Ler</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
@@ -541,6 +549,12 @@
             <a href="%1$s">%2$s</a><br><br>
             Podes descarregar a nova aplicação carregando no título.<br><br>
             Obrigado
+        ]]>
+    </string>
+
+    <string name="sideloaded_app">
+        <![CDATA[
+            Parece que a sua aplicação está danificada. Descarregue a versão original <a href="%s">aqui</a>.
         ]]>
     </string>
 
@@ -589,4 +603,5 @@
     <string name="panorama_view_title">VR Panorama View (exibição panorâmica)</string>
     <string name="sanselan_title">Apache Sanselan (leitor de meta-dados das imagens)</string>
     <string name="filters_title">Android Photo Filters (filtros de imagens)</string>
+    <string name="gesture_views_title">Gesture Views (ampliação de imagens)</string>
 </resources>

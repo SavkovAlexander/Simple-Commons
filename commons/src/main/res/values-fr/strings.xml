@@ -22,6 +22,7 @@
     <string name="transparent">Transparent</string>
     <string name="transparent_color">Couleur transparente</string>
     <string name="select_a_different_color">Sélectionnez une couleur différente</string>
+    <string name="download">Download</string>
 
     <!-- Favorites -->
     <string name="favorites">Favoris</string>
@@ -217,6 +218,7 @@
     <string name="empty_and_disable_recycle_bin">Vider et désactiver la corbeille</string>
     <string name="undo">Annuler</string>
     <string name="redo">Répéter</string>
+    <string name="print">Print</string>
 
     <!-- Sorting -->
     <string name="sort_by">Trier par</string>
@@ -387,7 +389,7 @@
     <string name="password_protect_hidden_items">Afficher les éléments protégés par mot de passe</string>
     <string name="password_protect_whole_app">Le mot de passe protège l\'ensemble de l\'application</string>
     <string name="password_protect_file_deletion">Protéger par mot de passe la suppression et le déplacement de fichiers</string>
-    <string name="keep_last_modified">Conserver la valeur de l\'ancienne modification lors de la copie, du déplacement ou du renommage du fichier</string>
+    <string name="keep_last_modified">Keep old last-modified value at file operations</string>
     <string name="show_info_bubble">Afficher une bulle d\'information des éléments lors de l\'utilisation de la barre de défilement</string>
     <string name="prevent_phone_from_sleeping">Ne pas mettre en veille tant que l\'application est active</string>
     <string name="skip_delete_confirmation">Ne jamais afficher le dialogue de confirmation de suppression</string>
@@ -403,6 +405,10 @@
     <string name="recycle_bin_cleaning_interval">Intervalle de vidage de la corbeille</string>
     <string name="empty_recycle_bin">Vider la corbeille</string>
     <string name="force_portrait_mode">Forcer le mode portrait</string>
+    <string name="export_settings">Export settings</string>
+    <string name="import_settings">Import settings</string>
+    <string name="settings_exported_successfully">Settings exported successfully</string>
+    <string name="settings_imported_successfully">Settings imported successfully</string>
 
     <!-- Setting sections -->
     <string name="visibility">Visibilité</string>
@@ -413,6 +419,7 @@
     <string name="saving_label">Enregistrement en cours…</string>
     <string name="startup">Démarrage en cours…</string>
     <string name="text">Texte</string>
+    <string name="migrating">Migrating</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Récupérer ce fichier</string>
@@ -438,6 +445,7 @@
     <string name="exporting_failed">Échec de l\'exportation</string>
     <string name="importing_some_entries_failed">Échec de l\'importation de certains éléments</string>
     <string name="exporting_some_entries_failed">Échec de l\'exportation de certains éléments</string>
+    <string name="no_entries_for_importing">No entries for importing have been found</string>
     <string name="no_entries_for_exporting">Aucun élément pouvant être exporté n\'a été trouvé</string>
 
     <!-- OTG devices -->
@@ -532,7 +540,7 @@
     </string>
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Simple Thank You</string>
-    <string name="before_asking_question_read_faq">Avant de poser une question, consultez d\'abord la Foire aux questions, peut-être que la solution y est présente.</string>
+    <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
     <string name="read_it">Consulter</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
@@ -543,6 +551,12 @@
             <a href="%1$s">%2$s</a><br><br>
             Vous pouvez la télécharger en appuyant sur le titre.<br><br>
             Merci
+        ]]>
+    </string>
+
+    <string name="sideloaded_app">
+        <![CDATA[
+            It looks like your app version is corrupt. Please download the original version <a href="%s">here</a>.
         ]]>
     </string>
 
@@ -590,4 +604,5 @@
     <string name="panorama_view_title">VR Panorama View (affichage des panoramas)</string>
     <string name="sanselan_title">Apache Sanselan (lecture de métadonnées d\'image)</string>
     <string name="filters_title">Android Photo Filters (filtres d\'image)</string>
+    <string name="gesture_views_title">Gesture Views (zoomable images)</string>
 </resources>

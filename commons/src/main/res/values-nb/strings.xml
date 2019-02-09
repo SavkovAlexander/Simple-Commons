@@ -22,6 +22,7 @@
     <string name="transparent">Transparent</string>
     <string name="transparent_color">Transparent color</string>
     <string name="select_a_different_color">Select a different color</string>
+    <string name="download">Download</string>
 
     <!-- Favorites -->
     <string name="favorites">Favoritter</string>
@@ -103,7 +104,7 @@
     <string name="file_already_exists_overwrite">Filen \"%s\" finnes allerede. Overskrive?</string>
     <string name="folder_already_exists">Mappen \"%s\" finnes allerede</string>
     <string name="merge">Sammenslå</string>
-    <string name="keep_both">Keep both</string>
+    <string name="keep_both">Behold begge</string>
     <string name="overwrite">Overskriv</string>
     <string name="skip">Hopp over</string>
     <string name="append">Tilføy \'_1\'</string>
@@ -217,6 +218,7 @@
     <string name="empty_and_disable_recycle_bin">Tøm og deaktiver papirkurven</string>
     <string name="undo">Angre</string>
     <string name="redo">Annuler angre</string>
+    <string name="print">Print</string>
 
     <!-- Sorting -->
     <string name="sort_by">Sorter etter</string>
@@ -385,7 +387,7 @@
     <string name="password_protect_hidden_items">Passordbeskytt synlighet for skjulte elementer</string>
     <string name="password_protect_whole_app">Passordbeskytt hele appen</string>
     <string name="password_protect_file_deletion">Passordbeskytt sletting og flytting av filer</string>
-    <string name="keep_last_modified">Behold gammel Sist endret-verdi ved kopier/flytt/endre navn for filer</string>
+    <string name="keep_last_modified">Behold sist-endret-verdi ved filoperasjoner</string>
     <string name="show_info_bubble">Vis en info-boble ved å dra i rullefeltet</string>
     <string name="prevent_phone_from_sleeping">Forhindre at telefonen går i hvilemodus mens appen er i forgrunnen</string>
     <string name="skip_delete_confirmation">Hopp alltid over dialog for slettebekreftelse</string>
@@ -401,6 +403,10 @@
     <string name="recycle_bin_cleaning_interval">Tømmeintervall for papirkurven</string>
     <string name="empty_recycle_bin">Tøm papirkurven</string>
     <string name="force_portrait_mode">Påtving portrettmodus</string>
+    <string name="export_settings">Export settings</string>
+    <string name="import_settings">Import settings</string>
+    <string name="settings_exported_successfully">Settings exported successfully</string>
+    <string name="settings_imported_successfully">Settings imported successfully</string>
 
     <!-- Setting sections -->
     <string name="visibility">Synlighet</string>
@@ -411,6 +417,7 @@
     <string name="saving_label">Saving</string>
     <string name="startup">Startup</string>
     <string name="text">Text</string>
+    <string name="migrating">Migrating</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Gjenopprett denne filen</string>
@@ -436,6 +443,7 @@
     <string name="exporting_failed">Eksportering feilet</string>
     <string name="importing_some_entries_failed">Importering av noen oppføringer feilet</string>
     <string name="exporting_some_entries_failed">Eksportering av noen oppføringer feilet</string>
+    <string name="no_entries_for_importing">No entries for importing have been found</string>
     <string name="no_entries_for_exporting">Ingen oppføringer for eksportering er funnet</string>
 
     <!-- OTG devices -->
@@ -530,7 +538,7 @@
     </string>
     <string name="purchase">Kjøp</string>
     <string name="update_thank_you">Please update Simple Thank You to the latest version</string>
-    <string name="before_asking_question_read_faq">Before you ask a question, please read the Frequently Asked Questions first, maybe the solution is there.</string>
+    <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
     <string name="read_it">Read it</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
@@ -541,6 +549,12 @@
             <a href="%1$s">%2$s</a><br><br>
             You can download it by pressing the title.<br><br>
             Thanks
+        ]]>
+    </string>
+
+    <string name="sideloaded_app">
+        <![CDATA[
+            It looks like your app version is corrupt. Please download the original version <a href="%s">here</a>.
         ]]>
     </string>
 
@@ -589,4 +603,5 @@
     <string name="panorama_view_title">VR Panorama View (displaying panoramas)</string>
     <string name="sanselan_title">Apache Sanselan (reading image metadata)</string>
     <string name="filters_title">Android Photo Filters (image filters)</string>
+    <string name="gesture_views_title">Gesture Views (zoomable images)</string>
 </resources>

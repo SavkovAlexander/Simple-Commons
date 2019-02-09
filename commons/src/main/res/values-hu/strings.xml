@@ -22,6 +22,7 @@
     <string name="transparent">Áttetsző</string>
     <string name="transparent_color">Áttetsző szín</string>
     <string name="select_a_different_color">Válasszon egy másik színt</string>
+    <string name="download">Letöltés</string>
 
     <!-- Favorites -->
     <string name="favorites">Kedvencek</string>
@@ -178,8 +179,7 @@
     <string name="undo_changes_confirmation">Biztos visszavonja a változtatást?</string>
     <string name="save_before_closing">Nem mentette a változtatásokat. Menti a kilépés előtt?</string>
     <string name="apply_to_all_apps">Színek alkalmazása az összes Simple Apps-ra</string>
-    <string name="app_icon_color_warning">WARNING: Some launchers do not handle app icon customization properly. In case the icon will disappear, try launching the app via Google Play or some widget, if available.
-        Once launched, just set back the default orange icon #F57C00. You might have to reinstall the app in the worst case.</string>
+    <string name="app_icon_color_warning">FIGYELMEZTETÉS: Néhány indító nem megfelelően kezeli az alkalmazás ikon testreszabását. Abban az esetben, ha az ikon eltűnik, próbálja meg elindítani az alkalmazást a Google Playen vagy egy bizonyos widgeten keresztül, ha elérhető.\nMiután elindult, állítsa vissza az alapértelmezett narancssárga ikont. #F57C00. Lehet, hogy a legrosszabb esetben újra kell telepítenie az alkalmazást.</string>
     <string name="share_colors_success">A színek sikeresen frissültek. Hozzáadott egy új témát, amelynek neve \'Megosztott\'. Kérjük, a jövőben ezt használja az összes alkalmazás színeinek frissítéséhez.</string>
     <string name="purchase_thank_you">
 		<![CDATA[
@@ -217,6 +217,7 @@
     <string name="empty_and_disable_recycle_bin">Lomtár kiürítése és letiltása</string>
     <string name="undo">Visszavonás</string>
     <string name="redo">Mégis</string>
+    <string name="print">Nyomtatás</string>
 
     <!-- Sorting -->
     <string name="sort_by">Rendezés</string>
@@ -385,7 +386,7 @@
     <string name="password_protect_hidden_items">Jelszavas védelem a rejtett elem láthatóságához</string>
     <string name="password_protect_whole_app">Jelszavas védelem az egész alkalmazáshoz</string>
     <string name="password_protect_file_deletion">Jelszavas védelem a fájlok törléséhez és áthelyezéséhez</string>
-    <string name="keep_last_modified">Tartsa meg a régi, utoljára módosítás értékét a fájl másolás/áthelyezés/átnevezés műveletnél</string>
+    <string name="keep_last_modified">Tartsa a régi, utoljára módosított értéket a fájl műveleteknél</string>
     <string name="show_info_bubble">Mutassa az információs buborékot a görgetősáv húzásánál</string>
     <string name="prevent_phone_from_sleeping">Megakadályozza a telefon alvó állapotát, amíg az alkalmazás előtérben van</string>
     <string name="skip_delete_confirmation">Mindig ugorja át a törlés megerősítése kérdést</string>
@@ -401,6 +402,10 @@
     <string name="recycle_bin_cleaning_interval">Lomtár kiürítés időszak</string>
     <string name="empty_recycle_bin">Lomtár ürítése</string>
     <string name="force_portrait_mode">Álló mód kényszerítése</string>
+    <string name="export_settings">Beállítások exportálása</string>
+    <string name="import_settings">Beállítások importálása</string>
+    <string name="settings_exported_successfully">A beállítások exportálása sikerült</string>
+    <string name="settings_imported_successfully">A beállítások importálása sikerült</string>
 
     <!-- Setting sections -->
     <string name="visibility">Láthatóság</string>
@@ -411,6 +416,7 @@
     <string name="saving_label">Mentés</string>
     <string name="startup">Indítás</string>
     <string name="text">Szöveg</string>
+    <string name="migrating">Átköltöztetés</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Fájl visszaállítása</string>
@@ -436,6 +442,7 @@
     <string name="exporting_failed">Sikertelen exportálás</string>
     <string name="importing_some_entries_failed">Egyes elemek importálása nem sikerült</string>
     <string name="exporting_some_entries_failed">Egyes elemek exportálása nem sikerült</string>
+    <string name="no_entries_for_importing">Az importáláshoz nem találhatóak bejegyzések</string>
     <string name="no_entries_for_exporting">Az exportáláshoz nem találhatóak bejegyzések</string>
 
     <!-- OTG devices -->
@@ -530,7 +537,7 @@
 	</string>
     <string name="purchase">Vásárlás</string>
     <string name="update_thank_you">Kérjük frissítse a Simple Thank You alkalmazást a legújabb verzióra</string>
-    <string name="before_asking_question_read_faq">Mielőtt feltenné a kérdését, először nézze meg a Gyakran Ismételt Kérdéseket, abban talán már létezik a megoldás.</string>
+    <string name="before_asking_question_read_faq">Mielőtt kérdezne, ellenőrizze az alkalmazás beállításait, és először olvassa el a Gyakran Ismételt Kérdéseket. Talán ott van a megoldás.</string>
     <string name="read_it">Olvassa el</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
@@ -542,7 +549,13 @@
             A címre kattintva lehet letölteni.<br><br>
             Köszönöm
         ]]>
-	</string>
+    </string>
+
+    <string name="sideloaded_app">
+        <![CDATA[
+            Úgy tűnik megsérült az alkalmazás. Kérjük töltse le az eredeti verziót <a href="%s">innen</a>.
+        ]]>
+    </string>
 
     <!-- FAQ -->
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>
@@ -559,9 +572,8 @@
     <string name="faq_4_text_commons">Igen, amikor egy widgetet futtat a kezdőképernyőn, megjelenik egy widget konfigurációs képernyő. A bal alsó sarokban színes négyzetek láthatók, csak nyomja meg és új színt választhat. Használhatja a csúszkát az alfa beállításához is.</string>
     <string name="faq_5_title_commons">Vissza tudom állítani a törölt fájlokat?</string>
     <string name="faq_5_text_commons">Ha valóban töröltek, akkor nem. Azonban engedélyezheti a Lomtár használatát az alkalmazás beállításaiban a törlés helyett. Ekkor a törlés helyett csak áthelyezi oda a fájlokat.</string>
-    <string name="faq_6_title_commons">The app launcher icon disappeared. What can I do?</string>
-    <string name="faq_6_text_commons">It is caused by your launcher not supporting icon customization properly. Try launching the app via Google Play or some widget, if available.
-        Once launched, just set back the default orange icon #F57C00. You might have to reinstall the app in the worst case.</string>
+    <string name="faq_6_title_commons">Az alkalmazásindító ikon eltűnt. Mit tehetek?</string>
+    <string name="faq_6_text_commons">Ennek az az oka, hogy a rendszerindító nem támogatja megfelelően az ikon testreszabását. Próbáld elindítani az alkalmazást a Google Playen vagy néhány widgeten keresztül, ha elérhető.\nMiután elindítottad, állítsd vissza az alapértelmezett narancssárga ikont #F57C00. Lehet, hogy a legrosszabb esetben újra kell telepítenie az alkalmazást.</string>
 
     <!-- License -->
     <string name="notice">Ez az alkalmazás a következő harmadik fél könyvtárait használja az életem megkönnyítésére. Köszönöm.</string>
@@ -589,4 +601,5 @@
     <string name="panorama_view_title">VR Panorama View (panorámakép megjelenítése)</string>
     <string name="sanselan_title">Apache Sanselan (kép metaadat kiolvasás)</string>
     <string name="filters_title">Android Photo Filters (kép szűrők)</string>
+    <string name="gesture_views_title">Gesztus nézetek (zoomolható képek)</string>
 </resources>

@@ -22,6 +22,7 @@
     <string name="transparent">Transparent</string>
     <string name="transparent_color">Transparent color</string>
     <string name="select_a_different_color">Select a different color</string>
+    <string name="download">Download</string>
 
     <!-- Favorites -->
     <string name="favorites">즐겨찾기</string>
@@ -217,6 +218,7 @@
     <string name="empty_and_disable_recycle_bin">Empty and disable the Recycle Bin</string>
     <string name="undo">Undo</string>
     <string name="redo">Redo</string>
+    <string name="print">Print</string>
 
     <!-- Sorting -->
     <string name="sort_by">정렬 방식</string>
@@ -385,7 +387,7 @@
     <string name="password_protect_hidden_items">숨김파일 보기 암호설정</string>
     <string name="password_protect_whole_app">애플리케이션 전체에서 암호를 이용한 보호기능 사용</string>
     <string name="password_protect_file_deletion">Password protect file deletion and moving</string>
-    <string name="keep_last_modified">파일 복사/이동/변경 시 최종 수정시간 정보를 유지</string>
+    <string name="keep_last_modified">Keep old last-modified value at file operations</string>
     <string name="show_info_bubble">스크롤바 드래그 시 항목별 툴팁 활성화</string>
     <string name="prevent_phone_from_sleeping">Prevent phone from sleeping while the app is in foreground</string>
     <string name="skip_delete_confirmation">삭제 확인 다이얼로그 비활성화</string>
@@ -401,6 +403,10 @@
     <string name="recycle_bin_cleaning_interval">Recycle Bin cleaning interval</string>
     <string name="empty_recycle_bin">Empty the Recycle Bin</string>
     <string name="force_portrait_mode">Force portrait mode</string>
+    <string name="export_settings">Export settings</string>
+    <string name="import_settings">Import settings</string>
+    <string name="settings_exported_successfully">Settings exported successfully</string>
+    <string name="settings_imported_successfully">Settings imported successfully</string>
 
     <!-- Setting sections -->
     <string name="visibility">가시성</string>
@@ -411,6 +417,7 @@
     <string name="saving_label">Saving</string>
     <string name="startup">Startup</string>
     <string name="text">Text</string>
+    <string name="migrating">Migrating</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Restore this file</string>
@@ -436,6 +443,7 @@
     <string name="exporting_failed">내보내기 실패</string>
     <string name="importing_some_entries_failed">일부항목 가져오기에 실패함</string>
     <string name="exporting_some_entries_failed">일부항목 내보내기에 실패함</string>
+    <string name="no_entries_for_importing">No entries for importing have been found</string>
     <string name="no_entries_for_exporting">내보낼 수 있는 항목을 찾을 수 없음</string>
 
     <!-- OTG devices -->
@@ -533,7 +541,7 @@
     </string>
     <string name="purchase">구매</string>
     <string name="update_thank_you">Please update Simple Thank You to the latest version</string>
-    <string name="before_asking_question_read_faq">Before you ask a question, please read the Frequently Asked Questions first, maybe the solution is there.</string>
+    <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
     <string name="read_it">Read it</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
@@ -544,6 +552,12 @@
             <a href="%1$s">%2$s</a><br><br>
             You can download it by pressing the title.<br><br>
             Thanks
+        ]]>
+    </string>
+
+    <string name="sideloaded_app">
+        <![CDATA[
+            It looks like your app version is corrupt. Please download the original version <a href="%s">here</a>.
         ]]>
     </string>
 
@@ -592,4 +606,5 @@
     <string name="panorama_view_title">VR Panorama View (displaying panoramas)</string>
     <string name="sanselan_title">Apache Sanselan (reading image metadata)</string>
     <string name="filters_title">Android Photo Filters (image filters)</string>
+    <string name="gesture_views_title">Gesture Views (zoomable images)</string>
 </resources>

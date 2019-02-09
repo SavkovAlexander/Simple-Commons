@@ -22,6 +22,7 @@
     <string name="transparent">Transparent</string>
     <string name="transparent_color">Transparent color</string>
     <string name="select_a_different_color">Select a different color</string>
+    <string name="download">Download</string>
 
     <!-- Favorites -->
     <string name="favorites">Favoriti</string>
@@ -220,6 +221,7 @@
     <string name="empty_and_disable_recycle_bin">Ispraznite i onemogućite koš za smeće</string>
     <string name="undo">Poništi promjenu</string>
     <string name="redo">Ponovi promjenu</string>
+    <string name="print">Print</string>
 
     <!-- Sorting -->
     <string name="sort_by">Sortiraj po</string>
@@ -405,7 +407,7 @@
     <string name="password_protect_hidden_items">Vidljivost skrivenih, lozinkom zaštićenih stavki</string>
     <string name="password_protect_whole_app">Zaštiti cijelu aplikaciju lozinkom</string>
     <string name="password_protect_file_deletion">Password protect file deletion and moving</string>
-    <string name="keep_last_modified">Zadrži stari datum zadnje izmjene pri kopiranju/premještanju/preimenovanju datoteke</string>
+    <string name="keep_last_modified">Keep old last-modified value at file operations</string>
     <string name="show_info_bubble">Prikažite informativni mjehur prilikom pomicanja stavki pomicanjem trake za pomicanje</string>
     <string name="prevent_phone_from_sleeping">Spriječite da uređaj prijeđe u stanje mirovanja dok je aplikacija u prvom planu</string>
     <string name="skip_delete_confirmation">Uvijek preskoči dijaloški okvir za potvrdu brisanja</string>
@@ -421,6 +423,10 @@
     <string name="recycle_bin_cleaning_interval">Interval čišćenja koša za smeće</string>
     <string name="empty_recycle_bin">Isprazni koš za smeće</string>
     <string name="force_portrait_mode">Prikaz stavke u portretnom formatu</string>
+    <string name="export_settings">Export settings</string>
+    <string name="import_settings">Import settings</string>
+    <string name="settings_exported_successfully">Settings exported successfully</string>
+    <string name="settings_imported_successfully">Settings imported successfully</string>
 
     <!-- Setting sections -->
     <string name="visibility">Vidljivost</string>
@@ -431,6 +437,7 @@
     <string name="saving_label">Spremanje</string>
     <string name="startup">Pokretanje</string>
     <string name="text">Tekst</string>
+    <string name="migrating">Migrating</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Vrati ovu datoteku</string>
@@ -456,6 +463,7 @@
     <string name="exporting_failed">Izvoz nije uspio</string>
     <string name="importing_some_entries_failed">Uvoz nekih unosa nije uspio</string>
     <string name="exporting_some_entries_failed">Izvoz nekih unosa nije uspio</string>
+    <string name="no_entries_for_importing">No entries for importing have been found</string>
     <string name="no_entries_for_exporting">Nije pronađen nijedan unos za izvoz</string>
 
     <!-- OTG devices -->
@@ -550,7 +558,7 @@
     </string>
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Molim ažurirajte Jednostavno hvala na najnoviju verziju</string>
-    <string name="before_asking_question_read_faq">Prije nego što postavite pitanje, najprije pročitajte Često postavljana pitanja, možda postoji rješenje.</string>
+    <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
     <string name="read_it">Pročitajte</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
@@ -561,6 +569,12 @@
             <a href="%1$s">%2$s</a><br><br>
             Možeš je preuzeti pritiskom na naslov.<br><br>
             Hvala
+        ]]>
+    </string>
+
+    <string name="sideloaded_app">
+        <![CDATA[
+            It looks like your app version is corrupt. Please download the original version <a href="%s">here</a>.
         ]]>
     </string>
 
@@ -609,4 +623,5 @@
     <string name="panorama_view_title">VR Panorama View (prikaz panorama)</string>
     <string name="sanselan_title">Apache Sanselan (čitanje metapodataka slike)</string>
     <string name="filters_title">Android Photo Filters (filteri za slike)</string>
+    <string name="gesture_views_title">Gesture Views (zoomable images)</string>
 </resources>
